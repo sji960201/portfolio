@@ -43,4 +43,13 @@ jQuery(document).ready(function () {
     $activeSection.find(".video-item").removeClass("active");
     $activeSection.find(targetVideo).addClass("active");
   });
+
+  // .submenu의 li 클릭 시 배경색 변경
+  $(".submenu li").click(function (e) {
+    // 모든 서브메뉴 항목에서 'clicked' 클래스를 제거합니다.
+    $(".submenu li").removeClass("clicked");
+
+    // 클릭된 서브메뉴 항목에 'clicked' 클래스를 추가하여 배경색을 변경합니다.
+    $(this).parent().addClass("clicked");
+  });
 });
