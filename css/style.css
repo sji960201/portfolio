@@ -93,6 +93,7 @@ a {
   box-sizing: border-box; /* 패딩과 테두리를 포함한 너비 및 높이 계산 */
   font-size: 22px;
   font-weight: bold;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .tabmenu li:hover {
@@ -196,7 +197,7 @@ a {
 }
 
 .submenu li:hover {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .submenu > li:first-child a {
@@ -260,6 +261,7 @@ a {
   font-size: 18px;
   border: 3px solid #333;
   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .videowrap {
@@ -270,6 +272,7 @@ a {
   align-items: center;
   border: 3px solid #333;
   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .video {
@@ -277,7 +280,7 @@ a {
   width: 874px;
   height: 516px;
   margin: 40px;
-  background-color: #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .abbox {
@@ -300,6 +303,7 @@ a {
   padding: 20px;
   border: 3px solid #333;
   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .aboutme {
@@ -317,6 +321,7 @@ a {
   padding: 20px;
   border: 3px solid #333;
   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .aboutme > div h3 {
@@ -362,6 +367,7 @@ a {
   /* background-color: #dbdbdb; */
   border: 3px solid #333;
   border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .profile > div h3 {
   /* padding: 10px; */
