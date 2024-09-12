@@ -49,9 +49,10 @@ a {
 }
 
 .logo:hover {
-  color: #12285c;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-    0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4); /* 글로우 효과 */
+  color: #0a1631;
+  font-size: 40px;
+  /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4); */
 }
 
 .main {
@@ -100,32 +101,38 @@ a {
 
 .about,
 #about {
-  background-color: #d1d4f3;
+  /* background-color: #d1d4f3; */
+  background-color: #fff;
 }
 
 .content1,
 #content1 {
-  background-color: #c3d8ec;
+  /* background-color: #c3d8ec; */
+  background-color: #dbe4f8;
 }
 
 .content2,
 #content2 {
-  background-color: #b1c3ef;
+  /* background-color: #b1c3ef; */
+  background-color: #c3d8ec;
 }
 
 .content3,
 #content3 {
-  background-color: #d8cff0;
+  /* background-color: #d8cff0; */
+  background-color: #d1d4f3;
 }
 
 .content4,
 #content4 {
-  background-color: #ebcee9;
+  /* background-color: #ebcee9; */
+  background-color: #d8cff0;
 }
 
 .content5,
 #content5 {
-  background-color: #facfd7;
+  /* background-color: #facfd7; */
+  background-color: #a8a8a8;
 }
 
 .bodywrap {
